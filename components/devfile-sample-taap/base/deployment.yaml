@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-taap
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0073-tenant/tkrw-pr712-0075-0073-app/devfile-sample-taap@sha256:a487d683739ad9bbfb5aa2170c79981016795c322b8892825a06f5e777b47f16
         name: my-nodejs
         ports:
         - containerPort: 3001
